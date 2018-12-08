@@ -80,23 +80,6 @@ $(document).ready(function() {
 		}
 	});
 	
-	/*maps*/
-	
-	var map = new GMaps({
-	  div: '.map',
-	  lat: -23.6633166,
-	  lng: -46.5436557,
-	  zoom: 12
-	});
-	
-	map.addMarker({
-	  lat: -23.6633166,
-	  lng: -46.5436557,
-	  title: 'Santo Andre',
-	  infoWindow: {
-		  content: '<p>Travfort Alarmes</p>'
-		}
-	});
 	
 	
 
